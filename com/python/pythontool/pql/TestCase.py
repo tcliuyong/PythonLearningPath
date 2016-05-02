@@ -7,7 +7,7 @@ passwd="liuyong"
 db="testdb"
 port=3306
 if __name__=="__main__":
-    pql = MysqlTools(host, user, passwd, db, port)
+    pql = MysqlTools.MysqlTools(host, user, passwd, db, port)
     column_name = ("username","passwd")
     #values = (("test1","ss"),("test2","ss"))
     #pql.insertIntoDB("user",column_name, values)
