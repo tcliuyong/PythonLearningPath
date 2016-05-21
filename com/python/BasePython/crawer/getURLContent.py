@@ -17,4 +17,7 @@ def getCateFromURL(URL):
     usernames =  puname.findall(content)
     pscores =  pscore.findall(content)
     dic = dict(map(lambda x,y:[x,y], usernames,pscores))
-    return titles[0], dic
+    if len(titles) > 0:
+        return titles[0], dic
+    else:
+        return None,None
