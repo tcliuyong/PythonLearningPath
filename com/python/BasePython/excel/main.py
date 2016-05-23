@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
-import sys
-import os
 import xlrd
-import xlwt
 from pyExcelerator import *
 column_num = 5 #正要处理的列数
 row_sum = 0  #全局控制列数
